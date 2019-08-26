@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="350dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    android:padding="5dp"
+    android:layout_height="270dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:textColor="@color/white"
+        android:id="@+id/xId"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sunriseId"
+        android:text = "sunrise: "
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:id="@+id/sunsetId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "sunset: "
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:id="@+id/descriptionId"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "description: "
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/humidityId"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "humidity: "
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/pressureId"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "pressure: "
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>
