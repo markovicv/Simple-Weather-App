@@ -1,12 +1,8 @@
-package com.example.weatherapp;
+package com.example.view;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -18,24 +14,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.example.weatherapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
-import adapter.WeatherAdapter;
-import model.Condition;
-import model.Place;
-import model.Temperature;
 import model.Weather;
 import repository.JSONweather;
 import repository.WeatherService;
-import utility.SpaceSeparator;
 import utility.Utils;
-import viewmodel.WeatherViewModel;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
